@@ -99,19 +99,20 @@
 			$window.on('load', function() {
 
 				$('#two').poptrox({
-					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
 					popupCloserText: '',
 					popupLoaderText: '',
 					selector: '.work-item a.image',
 					usePopupCaption: true,
-					usePopupDefaultStyling: false,
+					usePopupDefaultStyling: true,
+					popupTextColor: '#000000',
+					captionBackgroundColor: '#444444',
+					popupCaptionHeight: 80,
 					usePopupEasyClose: false,
 					usePopupNav: true,
 					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
-
 			});
 
 })(jQuery);

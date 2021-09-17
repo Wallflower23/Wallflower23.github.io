@@ -37,6 +37,7 @@ ol, ul {
 	list-style: none;
 }
 
+
 blockquote, q {
 	quotes: none;
 }
@@ -74,6 +75,10 @@ input, select, textarea {
 
 /* Basic */
 
+#reveal{
+	display:none;
+}
+
 	html {
 		box-sizing: border-box;
 	}
@@ -83,7 +88,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #fff;
+		background: #2c2c2c;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -111,13 +116,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #73adff;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #82c2ff !important;
 			text-decoration: none;
 		}
 
@@ -1817,7 +1822,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #252525;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
@@ -1841,7 +1846,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: #82c2ff !important;
 		}
 
 	select {
@@ -2146,6 +2151,8 @@ input, select, textarea {
 				width: 100%;
 			}
 
+	
+
 /* List */
 
 	ol {
@@ -2363,6 +2370,10 @@ input, select, textarea {
 
 /* Table */
 
+.wrapper{
+	text-align:center;
+}
+
 	.table-wrapper {
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
@@ -2464,17 +2475,17 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #5ec8f6;
+			color: #5ec8f6 !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			background-color: rgb(130 194 255 / 0.17);
+			border-color: #5ec8f6;
+			color: #5ec8f6 !important;
 		}
 
 		input[type="submit"].icon,
